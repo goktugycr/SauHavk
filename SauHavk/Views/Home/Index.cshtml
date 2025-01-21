@@ -1,0 +1,58 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="/css/index.css">
+
+
+<section id="gallery" class="section-padding">
+    <div class="container-fluid p-0">
+        <div id="photoCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <!-- İlk Fotoğraf -->
+                <div class="carousel-item active slider-bg"
+                     style="background-image: url('https://placehold.co/600x400?text=Photo+1');">
+                    
+                </div>
+
+                <!-- İkinci Fotoğraf -->
+                <div class="carousel-item slider-bg"
+                     style="background-image: url('https://placehold.co/600x400?text=Photo+2');">
+                </div>
+
+                <!-- Üçüncü Fotoğraf -->
+                <div class="carousel-item slider-bg"
+                     style="background-image: url('https://placehold.co/600x400?text=Photo+3');">
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#photoCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#photoCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+</section>
+
+
+<section class="section-space" style="background-color: #212529; color: white; text-align: center;">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-4">
+                <img src="~/images/sauypt.png" alt="sauypt" class="img-fluid rounded-circle logo-size">
+            </div>
+            <div class="col-md-4">
+                <h2>Biz Kimiz?</h2>
+                <p>Sakarya Üniversitesi Yamaç Paraşütü topluluğu ile Sakarya Üniversitesi ST - Focount topluluğunun birleşimiyiz.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="~/images/focount.png" alt="Focount" class="img-fluid rounded-circle logo-size">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section-padding spacing-section" style="background-color: #212529; color: white; text-align: center; margin-bottom: 40px;">

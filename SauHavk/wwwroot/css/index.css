@@ -1,0 +1,28 @@
+﻿
+.slider-bg {
+    height: 600px; /* Yüksekliği 600px olarak ayarla */
+    width: 100%; /* Genişliği tam ekran yap */
+    background-size: cover; /* Görseli alanı dolduracak şekilde sığdır */
+    background-position: center; /* Görseli ortala */
+    background-repeat: no-repeat; /* Görselin tekrarını kapat */
+}
+
+#gallery {
+    padding: 0; /* Slider için padding kaldırıldı */
+    margin-bottom: 20px; /* Slider ile siyah alan arasına boşluk ekle */
+}
+.logo-size {
+    width: 200px; /* Genişlik */
+    height: 200px; /* Yükseklik */
+    object-fit: cover; /* Görsellerin bozulmadan sığmasını sağlar */
+}
+
+.section-space {
+    padding: 40px 20px; /* Siyah alan için özel padding */
+}
+
+
+
+
+
+

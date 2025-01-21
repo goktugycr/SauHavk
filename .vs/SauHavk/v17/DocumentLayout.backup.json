@@ -1,0 +1,392 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\goktu\\source\\repos\\SauHavk\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|c:\\users\\goktu\\source\\repos\\sauhavk\\sauhavk\\controllers\\adminconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|solutionrelative:sauhavk\\controllers\\adminconroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|c:\\users\\goktu\\source\\repos\\sauhavk\\sauhavk\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|solutionrelative:sauhavk\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|c:\\users\\goktu\\source\\repos\\sauhavk\\sauhavk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|solutionrelative:sauhavk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|c:\\users\\goktu\\source\\repos\\sauhavk\\sauhavk\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|solutionrelative:sauhavk\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|c:\\users\\goktu\\source\\repos\\sauhavk\\sauhavk\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|solutionrelative:sauhavk\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|c:\\users\\goktu\\source\\repos\\sauhavk\\sauhavk\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|solutionrelative:sauhavk\\wwwroot\\css\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|c:\\users\\goktu\\source\\repos\\sauhavk\\sauhavk\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|solutionrelative:sauhavk\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|c:\\users\\goktu\\source\\repos\\sauhavk\\sauhavk\\wwwroot\\css\\contact.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|solutionrelative:sauhavk\\wwwroot\\css\\contact.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|c:\\users\\goktu\\source\\repos\\sauhavk\\sauhavk\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|solutionrelative:sauhavk\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|c:\\users\\goktu\\source\\repos\\sauhavk\\sauhavk\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|solutionrelative:sauhavk\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|c:\\users\\goktu\\source\\repos\\sauhavk\\sauhavk\\views\\home\\adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|solutionrelative:sauhavk\\views\\home\\adminpanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|c:\\users\\goktu\\source\\repos\\sauhavk\\sauhavk\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|solutionrelative:sauhavk\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|c:\\users\\goktu\\source\\repos\\sauhavk\\sauhavk\\views\\home\\events.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|solutionrelative:sauhavk\\views\\home\\events.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|c:\\users\\goktu\\source\\repos\\sauhavk\\sauhavk\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|solutionrelative:sauhavk\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|c:\\users\\goktu\\source\\repos\\sauhavk\\sauhavk\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|solutionrelative:sauhavk\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|c:\\users\\goktu\\source\\repos\\sauhavk\\sauhavk\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|solutionrelative:sauhavk\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|c:\\users\\goktu\\source\\repos\\sauhavk\\sauhavk\\models\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|solutionrelative:sauhavk\\models\\events.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|c:\\users\\goktu\\source\\repos\\sauhavk\\sauhavk\\views\\home\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|solutionrelative:sauhavk\\views\\home\\adminlogin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|c:\\users\\goktu\\source\\repos\\sauhavk\\sauhavk\\models\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|solutionrelative:sauhavk\\models\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|c:\\users\\goktu\\source\\repos\\sauhavk\\sauhavk\\wwwroot\\js\\contact.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|solutionrelative:sauhavk\\wwwroot\\js\\contact.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|c:\\users\\goktu\\source\\repos\\sauhavk\\sauhavk\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|solutionrelative:sauhavk\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|c:\\users\\goktu\\source\\repos\\sauhavk\\sauhavk\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|solutionrelative:sauhavk\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|c:\\users\\goktu\\source\\repos\\sauhavk\\sauhavk\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6E625C17-2CBD-4AC7-89D1-E74E823BCA28}|SauHavk\\SauHavk.csproj|solutionrelative:sauhavk\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminPanel.cshtml",
+              "DocumentMoniker": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Views\\Home\\AdminPanel.cshtml",
+              "RelativeDocumentMoniker": "SauHavk\\Views\\Home\\AdminPanel.cshtml",
+              "ToolTip": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Views\\Home\\AdminPanel.cshtml",
+              "RelativeToolTip": "SauHavk\\Views\\Home\\AdminPanel.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAcwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-19T17:51:11.913Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Events.cshtml",
+              "DocumentMoniker": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Views\\Home\\Events.cshtml",
+              "RelativeDocumentMoniker": "SauHavk\\Views\\Home\\Events.cshtml",
+              "ToolTip": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Views\\Home\\Events.cshtml",
+              "RelativeToolTip": "SauHavk\\Views\\Home\\Events.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-21T21:19:53.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Program.cs",
+              "RelativeDocumentMoniker": "SauHavk\\Program.cs",
+              "ToolTip": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Program.cs",
+              "RelativeToolTip": "SauHavk\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:12:29.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "contact.css",
+              "DocumentMoniker": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\css\\contact.css",
+              "RelativeDocumentMoniker": "SauHavk\\wwwroot\\css\\contact.css",
+              "ToolTip": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\css\\contact.css",
+              "RelativeToolTip": "SauHavk\\wwwroot\\css\\contact.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-19T14:49:03.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "SauHavk\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "SauHavk\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T07:04:48.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminConroller.cs",
+              "DocumentMoniker": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Controllers\\AdminConroller.cs",
+              "RelativeDocumentMoniker": "SauHavk\\Controllers\\AdminConroller.cs",
+              "ToolTip": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Controllers\\AdminConroller.cs",
+              "RelativeToolTip": "SauHavk\\Controllers\\AdminConroller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T17:51:47.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "SauHavk\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "SauHavk\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T07:02:27.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SauHavk\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SauHavk\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T07:02:10.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\appsettings.json",
+              "RelativeDocumentMoniker": "SauHavk\\appsettings.json",
+              "ToolTip": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\appsettings.json",
+              "RelativeToolTip": "SauHavk\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-19T14:08:27.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\css\\index.css",
+              "RelativeDocumentMoniker": "SauHavk\\wwwroot\\css\\index.css",
+              "ToolTip": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\css\\index.css",
+              "RelativeToolTip": "SauHavk\\wwwroot\\css\\index.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-21T22:30:25.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "SauHavk\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "SauHavk\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-01-21T22:31:38.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "SauHavk\\Controllers\\EventController.cs",
+              "ToolTip": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Controllers\\EventController.cs",
+              "RelativeToolTip": "SauHavk\\Controllers\\EventController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T21:26:46.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Views\\Home\\Contact.cshtml",
+              "RelativeDocumentMoniker": "SauHavk\\Views\\Home\\Contact.cshtml",
+              "ToolTip": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Views\\Home\\Contact.cshtml",
+              "RelativeToolTip": "SauHavk\\Views\\Home\\Contact.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-30T07:03:45.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ContactController.cs",
+              "DocumentMoniker": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Controllers\\ContactController.cs",
+              "RelativeDocumentMoniker": "SauHavk\\Controllers\\ContactController.cs",
+              "ToolTip": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Controllers\\ContactController.cs",
+              "RelativeToolTip": "SauHavk\\Controllers\\ContactController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:05:43.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SauHavk\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SauHavk\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T22:05:56.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "SauHavk\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "SauHavk\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T07:01:17.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Events.cs",
+              "DocumentMoniker": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Models\\Events.cs",
+              "RelativeDocumentMoniker": "SauHavk\\Models\\Events.cs",
+              "ToolTip": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Models\\Events.cs",
+              "RelativeToolTip": "SauHavk\\Models\\Events.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-21T21:23:09.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminLogin.cshtml",
+              "DocumentMoniker": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Views\\Home\\AdminLogin.cshtml",
+              "RelativeDocumentMoniker": "SauHavk\\Views\\Home\\AdminLogin.cshtml",
+              "ToolTip": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Views\\Home\\AdminLogin.cshtml",
+              "RelativeToolTip": "SauHavk\\Views\\Home\\AdminLogin.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-19T18:03:39.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "SauHavk\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "SauHavk\\wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-19T13:40:55.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Models\\EmailService.cs",
+              "RelativeDocumentMoniker": "SauHavk\\Models\\EmailService.cs",
+              "ToolTip": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Models\\EmailService.cs",
+              "RelativeToolTip": "SauHavk\\Models\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T14:11:58.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "contact.js",
+              "DocumentMoniker": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\js\\contact.js",
+              "RelativeDocumentMoniker": "SauHavk\\wwwroot\\js\\contact.js",
+              "ToolTip": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\js\\contact.js",
+              "RelativeToolTip": "SauHavk\\wwwroot\\js\\contact.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-19T14:49:15.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "SauHavk\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "SauHavk\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T12:22:43.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "SauHavk\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "SauHavk\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-05T12:22:47.957Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+﻿<section class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">İletişim</h2>
+        <form asp-controller="Contact" asp-action="SendMail" method="post">
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <label for="name" class="form-label">Ad Soyad:</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="email" class="form-label">E-posta:</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="col-12">
+                    <label for="message" class="form-label">Mesaj:</label>
+                    <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="transparent-button mt-3">Gönder</button>
+                </div>
+            </div>
+        </form>
+
+        <!-- Dinamik Mesaj Gösterimi -->
+        @if (ViewBag.Message != null)
+        {
+            <div id="notificationMessage" class="alert alert-@ViewBag.MessageType mt-3 text-center">
+                @ViewBag.Message
+            </div>
+        }
+    </div>
+</section>
+
+<link rel="stylesheet" href="/css/contact.css">
+
+<script src="/js/contact.js"></script>

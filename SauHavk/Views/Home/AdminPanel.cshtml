@@ -1,0 +1,101 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Genel layout kullanabilirsiniz
+}
+
+@model List<SauHavk.Models.Events>
+
+@{
+    ViewData["Title"] = "Admin Panel";
+}
+
+<h1 style="text-align: center;">Admin Panel</h1>
+
+<!-- Başarı ve Hata Mesajları -->
+@if (TempData["SuccessMessage"] != null)
+{
+    <div style="background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; padding: 10px;
+                margin-bottom: 20px; text-align: center; font-weight: bold; border-radius: 5px;">
+        @TempData["SuccessMessage"]
+    </div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div style="background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; padding: 10px;
+                margin-bottom: 20px; text-align: center; font-weight: bold; border-radius: 5px;">
+        @TempData["ErrorMessage"]
+    </div>
+}
+
+<!-- Etkinlik Tablosu ve Form -->
+<div style="display: flex; gap: 30px;">
+    <!-- Etkinlik Tablosu -->
+    <div style="flex: 2;">
+        <h2>Etkinlik Listesi</h2>
+        <table style="width: 100%; border-collapse: collapse; margin-bottom: 30px; font-family: Arial, sans-serif;">
+            <thead>
+                <tr style="background-color: #007BFF; color: white; text-align: left;">
+                    <th style="padding: 10px; border: 1px solid #ddd;">Id</th>
+                    <th style="padding: 10px; border: 1px solid #ddd;">Ad</th>
+                    <th style="padding: 10px; border: 1px solid #ddd;">Açıklama</th>
+                    <th style="padding: 10px; border: 1px solid #ddd;">Etkinlik Tarihi</th>
+                    <th style="padding: 10px; border: 1px solid #ddd;">Oluşturulma Tarihi</th>
+                    <th style="padding: 10px; border: 1px solid #ddd;">Sil</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null && Model.Any())
+                {
+                    foreach (var ev in Model)
+                    {
+                        <tr style="border: 1px solid #ddd;">
+                            <td style="padding: 10px;">@ev.Id</td>
+                            <td style="padding: 10px;">@ev.Name</td>
+                            <td style="padding: 10px;">@ev.Description</td>
+                            <td style="padding: 10px;">@ev.EventDate.ToString("dd MMM yyyy HH:mm")</td>
+                            <td style="padding: 10px;">@ev.CreatedAt.ToString("dd MMM yyyy HH:mm")</td>
+                            <td style="padding: 10px; text-align: center;">
+                                <form method="post" action="/Admin/DeleteEvent" style="margin: 0;">
+                                    <input type="hidden" name="id" value="@ev.Id" />
+                                    <button type="submit" style="background-color: red; color: white; border: none; padding: 5px 10px; cursor: pointer; border-radius: 5px;">Sil</button>
+                                </form>
+                            </td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="6" style="text-align: center; padding: 10px; border: 1px solid #ddd;">
+                            Henüz etkinlik yok.
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Etkinlik Ekleme Formu -->
+    <div style="flex: 1;">
+        <h2>Yeni Etkinlik Ekle</h2>
+        <div style="border: 1px solid #ddd; padding: 20px; background-color: #f9f9f9; border-radius: 5px;">
+            <form method="post" action="/Admin/AddEvent">
+                <label for="name" style="display: block; margin-bottom: 5px; font-weight: bold;">Etkinlik Adı:</label>
+                <input type="text" id="name" name="name" required
+                       style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px;" />
+
+                <label for="description" style="display: block; margin-bottom: 5px; font-weight: bold;">Açıklama:</label>
+                <textarea id="description" name="description" rows="4" required
+                          style="width: 100%; padding: 10px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 5px;"></textarea>
+
+                <label for="eventDate" style="display: block; margin-bottom: 5px; font-weight: bold;">Etkinlik Tarihi:</label>
+                <input type="datetime-local" id="eventDate" name="eventDate" required
+                       style="width: 100%; padding: 10px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 5px;" />
+
+                <button type="submit"
+                        style="background-color: #007BFF; color: white; border: none; padding: 10px 20px; cursor: pointer; border-radius: 5px; width: 100%;">
+                    Etkinlik Ekle
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

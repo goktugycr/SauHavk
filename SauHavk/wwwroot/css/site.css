@@ -1,0 +1,70 @@
+body {
+    background-color: #6c757d; /* Gri arka plan */
+}
+
+.carousel-inner img {
+    max-height: 600px; /* Maksimum yükseklik */
+    width: 100%;
+    object-fit: contain; /* Kesilme olmadan sýðdýr */
+}
+
+header {
+    background-color: #212529; /* Siyah üst kýsým */
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+    header h1 {
+        font-size: 4rem;
+        margin-bottom: 10px;
+    }
+
+    header nav {
+        margin-top: 20px;
+    }
+
+        header nav a {
+            color: rgba(255, 255, 255, 0.75);
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.1rem;
+            padding: 10px 20px;
+            border: 2px solid white;
+            border-radius: 5px;
+            display: inline-block;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+            header nav a:hover {
+                color: #212529; /* Butonun üstüne gelince yazý rengi siyah olur */
+                background-color: white; /* Arkaplan beyaz olur */
+            }
+
+        #scrollToTopBtn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: none; /* Baþlangýçta gizli */
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            z-index: 1000; /* Diðer elementlerin üstünde kalmasý için */
+            display: flex; /* Flexbox aktif */
+            align-items: center; /* Dikey ortalama */
+            justify-content: center; /* Yatay ortalama */
+            text-align: center; /* Text ve içerik ortalansýn */
+        }
+
+
+    #scrollToTopBtn:hover {
+        background-color: #0056b3;
+        transform: scale(1.1); /* Hafif büyütme efekti */
+    }

@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Etkinlikler";
+    var pastEvents = ViewBag.PastEvents as List<SauHavk.Models.Events>;
+    var futureEvents = ViewBag.FutureEvents as List<SauHavk.Models.Events>;
+}
+
+<h1>Etkinlikler</h1>
+
+<h2>Gelecek Etkinlikler</h2>
+<table border="1" style="width: 100%; text-align: left; border-collapse: collapse;">
+    <thead>
+        <tr style="background-color: #f2f2f2;">
+            <th>Etkinlik Adı</th>
+            <th>Tarih</th>
+            <th>Açıklama</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (futureEvents != null && futureEvents.Any())
+        {
+            foreach (var ev in futureEvents)
+            {
+                <tr>
+                    <td>@ev.Name</td>
+                    <td>@ev.EventDate.ToString("dd MMM yyyy HH:mm")</td>
+                    <td>@ev.Description</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="3" style="text-align: center;">Hiç etkinlik bulunamadı.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>Geçmiş Etkinlikler</h2>
+<table border="1" style="width: 100%; text-align: left; border-collapse: collapse;">
+    <thead>
+        <tr style="background-color: #f2f2f2;">
+            <th>Etkinlik Adı</th>
+            <th>Tarih</th>
+            <th>Açıklama</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (pastEvents != null && pastEvents.Any())
+        {
+            foreach (var ev in pastEvents)
+            {
+                <tr>
+                    <td>@ev.Name</td>
+                    <td>@ev.EventDate.ToString("dd MMM yyyy HH:mm")</td>
+                    <td>@ev.Description</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="3" style="text-align: center;">Hiç etkinlik bulunamadı.</td>
+            </tr>
+        }
+    </tbody>
+</table>
