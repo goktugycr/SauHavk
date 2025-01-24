@@ -4,64 +4,87 @@
     var futureEvents = ViewBag.FutureEvents as List<SauHavk.Models.Events>;
 }
 
-<h1>Etkinlikler</h1>
+@model Tuple<List<SauHavk.Models.Events>, List<SauHavk.Models.Events>>
 
-<h2>Gelecek Etkinlikler</h2>
-<table border="1" style="width: 100%; text-align: left; border-collapse: collapse;">
-    <thead>
-        <tr style="background-color: #f2f2f2;">
-            <th>Etkinlik Adı</th>
-            <th>Tarih</th>
-            <th>Açıklama</th>
-        </tr>
-    </thead>
-    <tbody>
-        @if (futureEvents != null && futureEvents.Any())
-        {
-            foreach (var ev in futureEvents)
-            {
-                <tr>
-                    <td>@ev.Name</td>
-                    <td>@ev.EventDate.ToString("dd MMM yyyy HH:mm")</td>
-                    <td>@ev.Description</td>
-                </tr>
-            }
-        }
-        else
-        {
-            <tr>
-                <td colspan="3" style="text-align: center;">Hiç etkinlik bulunamadı.</td>
-            </tr>
-        }
-    </tbody>
-</table>
+<h1 style="text-align: center;">Etkinlikler</h1>
 
-<h2>Geçmiş Etkinlikler</h2>
-<table border="1" style="width: 100%; text-align: left; border-collapse: collapse;">
-    <thead>
-        <tr style="background-color: #f2f2f2;">
-            <th>Etkinlik Adı</th>
-            <th>Tarih</th>
-            <th>Açıklama</th>
-        </tr>
-    </thead>
-    <tbody>
-        @if (pastEvents != null && pastEvents.Any())
-        {
-            foreach (var ev in pastEvents)
-            {
-                <tr>
-                    <td>@ev.Name</td>
-                    <td>@ev.EventDate.ToString("dd MMM yyyy HH:mm")</td>
-                    <td>@ev.Description</td>
+<div style="display: flex; flex-direction: column; gap: 40px;">
+
+    <!-- Geçmiş Etkinlikler Tablosu -->
+    <div>
+        <h2>Geçmiş Etkinlikler</h2>
+        <table style="width: 100%; border-collapse: collapse; margin-bottom: 30px; font-family: Arial, sans-serif;">
+            <thead>
+                <tr style="background-color: #007BFF; color: white; text-align: left;">
+                    <th style="padding: 10px; border: 1px solid #ddd;">Id</th>
+                    <th style="padding: 10px; border: 1px solid #ddd;">Ad</th>
+                    <th style="padding: 10px; border: 1px solid #ddd;">Açıklama</th>
+                    <th style="padding: 10px; border: 1px solid #ddd;">Etkinlik Tarihi</th>
+                    <th style="padding: 10px; border: 1px solid #ddd;">Oluşturulma Tarihi</th>
                 </tr>
-            }
-        }
-        else
-        {
-            <tr>
-                <td colspan="3" style="text-align: center;">Hiç etkinlik bulunamadı.</td>
-            </tr>
-        }
-    </tbody>
-</table>
+            </thead>
+            <tbody>
+                @if (Model.Item1 != null && Model.Item1.Any())
+                {
+                    foreach (var ev in Model.Item1)
+                    {
+                        <tr style="border: 1px solid #ddd;">
+                            <td style="padding: 10px;">@ev.Id</td>
+                            <td style="padding: 10px;">@ev.Name</td>
+                            <td style="padding: 10px;">@ev.Description</td>
+                            <td style="padding: 10px;">@ev.EventDate.ToString("dd MMM yyyy HH:mm")</td>
+                            <td style="padding: 10px;">@ev.CreatedAt.ToString("dd MMM yyyy HH:mm")</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="5" style="text-align: center; padding: 10px; border: 1px solid #ddd;">
+                            Henüz geçmiş etkinlik yok.
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Gelecek Etkinlikler Tablosu -->
+    <div>
+        <h2>Gelecek Etkinlikler</h2>
+        <table style="width: 100%; border-collapse: collapse; margin-bottom: 30px; font-family: Arial, sans-serif;">
+            <thead>
+                <tr style="background-color: #007BFF; color: white; text-align: left;">
+                    <th style="padding: 10px; border: 1px solid #ddd;">Id</th>
+                    <th style="padding: 10px; border: 1px solid #ddd;">Ad</th>
+                    <th style="padding: 10px; border: 1px solid #ddd;">Açıklama</th>
+                    <th style="padding: 10px; border: 1px solid #ddd;">Etkinlik Tarihi</th>
+                    <th style="padding: 10px; border: 1px solid #ddd;">Oluşturulma Tarihi</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model.Item2 != null && Model.Item2.Any())
+                {
+                    foreach (var ev in Model.Item2)
+                    {
+                        <tr style="border: 1px solid #ddd;">
+                            <td style="padding: 10px;">@ev.Id</td>
+                            <td style="padding: 10px;">@ev.Name</td>
+                            <td style="padding: 10px;">@ev.Description</td>
+                            <td style="padding: 10px;">@ev.EventDate.ToString("dd MMM yyyy HH:mm")</td>
+                            <td style="padding: 10px;">@ev.CreatedAt.ToString("dd MMM yyyy HH:mm")</td>
+                        </tr>
+                    }
+                }
+                else
+                {
+                    <tr>
+                        <td colspan="5" style="text-align: center; padding: 10px; border: 1px solid #ddd;">
+                            Henüz gelecek etkinlik yok.
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

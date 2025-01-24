@@ -28,10 +28,10 @@ public class EventsController : Controller
             .OrderBy(e => e.EventDate)
             .ToList();
 
-        ViewBag.PastEvents = pastEvents;
-        ViewBag.FutureEvents = futureEvents;
-
-        return View("~/Views/Home/Events.cshtml");
+        // Görünüm dosyasını açıkça belirt
+        return View("~/Views/Home/Events.cshtml", Tuple.Create(pastEvents, futureEvents));
     }
+
+
 
 }
