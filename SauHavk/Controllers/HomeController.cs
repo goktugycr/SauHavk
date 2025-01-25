@@ -14,5 +14,7 @@ namespace SauHavk.Controllers
         {
             return RedirectToAction("Index", "Events");
         }
+
+        public IActionResult Gallery() => View();
     }
 }
