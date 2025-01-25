@@ -1,0 +1,46 @@
+﻿/* Genel Ayarlar */
+.step {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+    margin: 0; /* Adımlar arasında beyazlık olmasın */
+    width: 100%; /* Tam genişlik */
+}
+
+/* Adım 1 */
+.step-1 {
+    background-color: #f8d7da; /* Açık kırmızı */
+    color: #721c24; /* Daha koyu kırmızı metin */
+}
+
+/* Adım 2 */
+.step-2 {
+    background-color: #d4edda; /* Açık yeşil */
+    color: #155724; /* Daha koyu yeşil metin */
+}
+
+/* Adım 3 */
+.step-3 {
+    background-color: #cce5ff; /* Açık mavi */
+    color: #004085; /* Daha koyu mavi metin */
+}
+
+/* Adım 4 */
+.step-4 {
+    background-color: #fff3cd; /* Açık sarı */
+    color: #856404; /* Daha koyu sarı metin */
+}
+
+/* Görseller */
+.step img {
+    max-width: 100%; /* Görsel genişliği */
+    border-radius: 10px; /* Yuvarlatılmış köşeler */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); /* Hafif gölge */
+}
+
+/* Beyaz Alanı Kaldır */
+.full-width {
+    padding: 0;
+    margin: 0;
+    max-width: 100%; /* Kapsayıcı genişliği tam ekran */
+}

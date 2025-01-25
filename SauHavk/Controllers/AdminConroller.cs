@@ -5,7 +5,7 @@ using System.Linq;
 
 public class AdminController : Controller
 {
-    private const string AdminPassword = "-";
+    private const string AdminPassword = "AdminSifre2024";
     private readonly ApplicationDbContext _context;
 
     public AdminController(ApplicationDbContext context)

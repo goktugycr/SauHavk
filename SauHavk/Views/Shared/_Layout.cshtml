@@ -11,7 +11,8 @@
 </head>
 
 <body>
-    <header>
+    <div class="wrapper">
+    <header> 
         <h1>SaüHAVK</h1>
         <h3>Havacılık ve modelcilik topluluğu</h3>
         <nav>
@@ -21,14 +22,14 @@
             <a asp-controller="Home" asp-action="Contact">İletişim</a>
             <a asp-controller="Home" asp-action="Gallery">Galeri</a>
             <a asp-controller="Home" asp-action="Events">Etkinliklerimiz</a>
-            <a href="#">Bizi Destekleyin</a>
+            <a asp-controller="Home" asp-action="SupportUs">Bizi Destekleyin</a>
         </nav>
     </header>
 
     <div class="container mt-5">
         @RenderBody()
     </div>
-
+    </div>
     <footer class="bg-dark text-white text-center py-1">
         <p>&copy; 2024 SaüHAVK Kulübü. Tüm hakları saklıdır.</p>
     </footer>

@@ -1,7 +1,9 @@
 wwwroot\css\contact.css
 wwwroot\css\index.css
 wwwroot\css\site.css
+wwwroot\css\SupportUs.css
 wwwroot\favicon.ico
+wwwroot\images\bagisAnaSayfa.png
 wwwroot\images\focount.png
 wwwroot\images\roket.png
 wwwroot\images\sauhavk1.png

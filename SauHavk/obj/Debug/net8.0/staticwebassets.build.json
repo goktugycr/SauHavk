@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GA2WauU+G5mEBvop1sGf0+uo0i+DoQD+YWJEAkM0XFE=",
+  "Hash": "91Qt/SRM7REBM0pgaj7VtyVOR0JFvTRXRc/MjBegm1g=",
   "Source": "SauHavk",
   "BasePath": "_content/SauHavk",
   "Mode": "Default",
@@ -115,11 +115,32 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6xwca0ultb",
-      "Integrity": "qpvhHB1tGc0If7kWJgVmr1QSjG/rb/BmyRsENGdlBYU=",
+      "Fingerprint": "g93f0185h8",
+      "Integrity": "RCJW5ichjzMfEQAbU6WL2cjRhVF7kuiLTvKEi7nqWW8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\css\\SupportUs.css",
+      "SourceId": "SauHavk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\",
+      "BasePath": "_content/SauHavk",
+      "RelativePath": "css/SupportUs#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tb4f4w4o1j",
+      "Integrity": "V/jKeXCybGWlTKSH7559HXxuSY3PbPc3cOSItJTmxqg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\SupportUs.css"
     },
     {
       "Identity": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\favicon.ico",
@@ -141,6 +162,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\images\\bagisAnaSayfa.png",
+      "SourceId": "SauHavk",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\",
+      "BasePath": "_content/SauHavk",
+      "RelativePath": "images/bagisAnaSayfa#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p9c720y6vf",
+      "Integrity": "3Rv5t6lDiVBikvgOSj7topTQCvi5iM+OgOt0mh37yxw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bagisAnaSayfa.png"
     },
     {
       "Identity": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\images\\focount.png",
@@ -1653,51 +1695,6 @@
       ]
     },
     {
-      "Route": "css/site.6xwca0ultb.css",
-      "AssetFile": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2019"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"qpvhHB1tGc0If7kWJgVmr1QSjG/rb/BmyRsENGdlBYU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 18:03:47 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "6xwca0ultb"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-qpvhHB1tGc0If7kWJgVmr1QSjG/rb/BmyRsENGdlBYU="
-        }
-      ]
-    },
-    {
       "Route": "css/site.css",
       "AssetFile": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\css\\site.css",
       "Selectors": [],
@@ -1708,7 +1705,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2019"
+          "Value": "2417"
         },
         {
           "Name": "Content-Type",
@@ -1716,11 +1713,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qpvhHB1tGc0If7kWJgVmr1QSjG/rb/BmyRsENGdlBYU=\""
+          "Value": "\"RCJW5ichjzMfEQAbU6WL2cjRhVF7kuiLTvKEi7nqWW8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 18:03:47 GMT"
+          "Value": "Sat, 25 Jan 2025 18:37:37 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1730,7 +1727,134 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qpvhHB1tGc0If7kWJgVmr1QSjG/rb/BmyRsENGdlBYU="
+          "Value": "sha256-RCJW5ichjzMfEQAbU6WL2cjRhVF7kuiLTvKEi7nqWW8="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.g93f0185h8.css",
+      "AssetFile": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2417"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RCJW5ichjzMfEQAbU6WL2cjRhVF7kuiLTvKEi7nqWW8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Jan 2025 18:37:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g93f0185h8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RCJW5ichjzMfEQAbU6WL2cjRhVF7kuiLTvKEi7nqWW8="
+        }
+      ]
+    },
+    {
+      "Route": "css/SupportUs.css",
+      "AssetFile": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\css\\SupportUs.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V/jKeXCybGWlTKSH7559HXxuSY3PbPc3cOSItJTmxqg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Jan 2025 23:38:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-V/jKeXCybGWlTKSH7559HXxuSY3PbPc3cOSItJTmxqg="
+        }
+      ]
+    },
+    {
+      "Route": "css/SupportUs.tb4f4w4o1j.css",
+      "AssetFile": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\css\\SupportUs.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"V/jKeXCybGWlTKSH7559HXxuSY3PbPc3cOSItJTmxqg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Jan 2025 23:38:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tb4f4w4o1j"
+        },
+        {
+          "Name": "label",
+          "Value": "css/SupportUs.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-V/jKeXCybGWlTKSH7559HXxuSY3PbPc3cOSItJTmxqg="
         }
       ]
     },
@@ -1813,6 +1937,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "images/bagisAnaSayfa.p9c720y6vf.png",
+      "AssetFile": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\images\\bagisAnaSayfa.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1909423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3Rv5t6lDiVBikvgOSj7topTQCvi5iM+OgOt0mh37yxw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Jan 2025 23:21:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p9c720y6vf"
+        },
+        {
+          "Name": "label",
+          "Value": "images/bagisAnaSayfa.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3Rv5t6lDiVBikvgOSj7topTQCvi5iM+OgOt0mh37yxw="
+        }
+      ]
+    },
+    {
+      "Route": "images/bagisAnaSayfa.png",
+      "AssetFile": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\images\\bagisAnaSayfa.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1909423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3Rv5t6lDiVBikvgOSj7topTQCvi5iM+OgOt0mh37yxw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Jan 2025 23:21:46 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3Rv5t6lDiVBikvgOSj7topTQCvi5iM+OgOt0mh37yxw="
         }
       ]
     },

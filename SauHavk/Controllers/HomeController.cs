@@ -16,5 +16,6 @@ namespace SauHavk.Controllers
         }
 
         public IActionResult Gallery() => View();
+        public IActionResult SupportUS() => View();
     }
 }

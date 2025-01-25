@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\SauHavk.30xypy2qsb.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\css\\SupportUs.css",
+      "PackagePath": "staticwebassets\\css\\SupportUs.css"
+    },
+    {
       "Id": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\css\\contact.css",
       "PackagePath": "staticwebassets\\css\\contact.css"
     },
@@ -19,6 +23,10 @@
     {
       "Id": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\images\\bagisAnaSayfa.png",
+      "PackagePath": "staticwebassets\\images\\bagisAnaSayfa.png"
     },
     {
       "Id": "C:\\Users\\goktu\\source\\repos\\SauHavk\\SauHavk\\wwwroot\\images\\focount.png",
